@@ -1,1 +1,0 @@
-# aktvasi-cetakkupon-anda
